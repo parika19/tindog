@@ -1,0 +1,185 @@
+
+body{
+  font-family: "Montserrat";
+}
+h2{
+  font-family: "Montserrat-bold";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.big-heading{
+  font-family: 'Montserrat-Black', sans-serif;
+  size: 3.5rem;
+  line-height: 1.5
+}
+#title{
+  background-color: #ff4c68;
+  color: #fff;
+
+}
+
+.container-fluid{
+  padding: 3% 15%;
+  margin-top: 0;
+
+}
+
+
+/* navbar */
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+
+}
+
+.navbar{
+  padding: 0 0 4.5rem;
+}
+.nav-item{
+  padding:0 18px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "Montserrat-light";
+}
+
+/* download-button */
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+/* title-image */
+.title-image{
+  width: 60%;
+  transform: rotate(25deg);
+
+
+
+
+}
+
+/* icon */
+.icon{
+  color: #ef8172;
+  font-size: 15px;
+  padding-bottom: 10px;
+}
+.icon:hover{
+  color: #ff4c68;
+}
+
+
+
+.b-features{
+  color: #8f8f8f;
+  line-height: 2;
+}
+
+.second-one{
+  margin: 80px auto;
+}
+
+.elements{
+  text-align: center;
+}
+
+/* testimonial-section */
+#testimonials{
+
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+}
+
+
+.test-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-img{
+  width: 15%;
+  margin:20px 20px 50px;
+}
+
+.testimonial-image{
+  border-radius: 100%;
+  width:10%;
+}
+
+/* pricing section */
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-col{
+  padding: 3% 2%;
+}
+/* z-index */
+
+#features{
+  background-color: white;
+
+  font-style: "Montserrat";
+  padding: 7% 15%;
+
+
+}
+ @media{max-width: 1028px}{
+  .title-image{
+     position: static;
+     transform: rotate(0 deg);  }
+
+   #title{
+    text-align: center;
+   }
+
+}
+
+/* call to action */
+#cta{
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 40px 40px 80px;
+}
+
+.end{
+  font-family: "Montserrat-Black";
+  font-size: 3rem;
+  line-height: 1.5;
+  color: white;
+  padding-bottom: 20px;
+}
+
+.endbutton{
+  margin:20px;
+}
+
+#footer{
+  background-color: white;
+  text-align: center;
+  padding-top:80px;
+  padding-bottom: 20px;
+}
+
+.endgame{
+  color: grey;
+}
+
+.icons{
+  margin: 15px;
+}
